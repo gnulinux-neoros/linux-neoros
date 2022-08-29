@@ -1,0 +1,11 @@
+NAME="Linux Neoros"
+PRETTY_NAME="GNU/Linux Neoros x86_64"
+ID=neoros
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="95;1;25;144;200"
+HOME_URL="https://linux-neoros.github.io"
+DOCUMENTATION_URL="https://wiki.archlinux.org/"
+SUPPORT_URL="https://bbs.archlinux.org/"
+BUG_REPORT_URL="https://bugs.archlinux.org/"
+LOGO=archlinux-logo

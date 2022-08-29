@@ -1,0 +1,5 @@
+root:x:0:root
+neoros:x:4:neoros
+wheel:x:10:neoros
+uucp:x:14:neoros
+neoros:x:1000:
