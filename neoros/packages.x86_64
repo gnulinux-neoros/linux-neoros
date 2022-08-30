@@ -32,7 +32,6 @@ exfatprogs
 f2fs-tools
 fatresize
 firefox
-flat-remix-gnome
 fsarchiver
 gdm
 gnu-netcat
@@ -63,6 +62,7 @@ linux
 linux-atm
 linux-firmware
 linux-firmware-marvell
+linux-headers
 livecd-sounds
 lsscsi
 lvm2
