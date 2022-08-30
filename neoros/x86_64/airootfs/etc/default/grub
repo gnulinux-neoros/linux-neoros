@@ -19,8 +19,6 @@ GRUB_TIMEOUT_STYLE=menu
 # Uncomment to use basic console
 GRUB_TERMINAL_INPUT=console
 
-GRUB_FONT=/boot/grub/fonts/boot.pf2
-
 # Uncomment to disable graphical terminal
 #GRUB_TERMINAL_OUTPUT=console
 
@@ -41,12 +39,12 @@ GRUB_DISABLE_RECOVERY=true
 
 # Uncomment and set to the desired menu colors.  Used by normal and wallpaper
 # modes only.  Entries specified as foreground/background.
-#GRUB_COLOR_NORMAL="light-blue/black"
-#GRUB_COLOR_HIGHLIGHT="light-cyan/blue"
+GRUB_COLOR_NORMAL="light-blue/black"
+GRUB_COLOR_HIGHLIGHT="light-cyan/blue"
 
 # Uncomment one of them for the gfx desired, a image background or a gfxtheme
-#GRUB_BACKGROUND="/path/to/wallpaper"
-#GRUB_THEME="/path/to/gfxtheme"
+#GRUB_BACKGROUND="/home/khangteo/linux-neoros-7.22/neoros/grub/themes/neoros/splash.png"
+#GRUB_THEME="/home/khangteo/linux-neoros-7.22/neoros/grub/themes/neoros/theme.txt"
 
 # Uncomment to get a beep at GRUB start
 GRUB_INIT_TUNE="480 440 1"

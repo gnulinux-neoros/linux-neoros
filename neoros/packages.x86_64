@@ -2,6 +2,7 @@ alsa-utils
 amd-ucode
 arch-install-scripts
 archinstall
+archlinux-keyring
 avahi
 b43-fwcutter
 base
@@ -31,6 +32,7 @@ exfatprogs
 f2fs-tools
 fatresize
 firefox
+flat-remix-gnome
 fsarchiver
 gdm
 gnu-netcat
