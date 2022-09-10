@@ -42,6 +42,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added beep sound in `/efiboot/loader/loader.conf`
 - Created directory `themes` in `/grub`
 - Added archlinux keyring to `packages.x86_64`
+### Deleted
+- Deleted contents `/airootfs/etc/motd`
+- Deleted file `02-archiso-x86_64-linux.conf` in `/efiboot/loader/entries`
+- Deleted file `03-archiso-x86_64-speech-linux.conf` in `/efiboot/loader/entries`
+- Deleted file `boot.pf2` to `/grub`
+- Deleted text help in `/syslinux/archiso_tail.cfg`
+- Deleted grub font in `/x86_64/airootfs/etc/default/grub`
+- Deleted contents `/x86_64/airootfs/etc/motd`
 ### Changed
 - Set user `neoros` to no password in `/airootfs/etc/sudoers`
 - Changed file `01-archiso-x86_64-graphical-linux.conf` -> `menuentry-efi-01.conf` in `/efiboot/loader/entries`
@@ -54,14 +62,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed contents `/syslinux/archiso_sys-linux.cfg`
 - Uncommented grub color in `/x86_64/airootfs/etc/default/grub`
 - Changed pretty name in `/x86_64/airootfs/etc/os-release`
-### Deleted
-- Deleted contents `/airootfs/etc/motd`
-- Deleted file `02-archiso-x86_64-linux.conf` in `/efiboot/loader/entries`
-- Deleted file `03-archiso-x86_64-speech-linux.conf` in `/efiboot/loader/entries`
-- Deleted file `boot.pf2` to `/grub`
-- Deleted text help in `/syslinux/archiso_tail.cfg`
-- Deleted grub font in `/x86_64/airootfs/etc/default/grub`
-- Deleted contents `/x86_64/airootfs/etc/motd`
 
 ## Commit #1 [20220830]
 ### Added
