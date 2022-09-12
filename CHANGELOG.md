@@ -7,11 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## Commit #5 [20220912]
 ### Added
 - Created directory `gdm` in `/airootfs/etc`
-- Added user `neoros` to AutomaticLogin
 ### Deleted
-- Deleted neoros user in `/airootfs/etc/sudoers`
 ### Changed
-- Changed AutomaticLoginEnable to True
+- Deleted neoros user in `/airootfs/etc/sudoers`
+- Uncommented wheel in `/airootfs/etc/sudoers`
+- Added user `neoros` to AutomaticLogin in `/airootfs/etc/gdm/custom.conf`
+- Changed AutomaticLoginEnable to `True` in `/airootfs/etc/gdm/custom.conf`
 
 ## Commit #4 [20220910]
 ### Added
@@ -20,13 +21,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added GNOME Shell to `packages.x86_64`
 - Added GNOME Shell Extensions to `packages.x86_64`
 - Added ntfs-3g to `packages.x86_64`
-- Added contents `/x86_64/airootfs/etc/motd`
 - Added i386 CPU (32-bits CPU) in `/grub/grub.cfg`
 ### Deleted
 - Deleted directory `themes` in `/grub`
 - Deleted file `variable.cfg` in `/grub`
 - Deleted directory `lib` in `/x86_64/airootfs/usr`
-- Deleted contents `/airootfs/etc/motd`
 ### Changed
 - Fixed settings in `/airootfs/etc/sudoers`
 - Changed contents `/x86_64/airootfs/etc/os-release`
@@ -34,6 +33,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed file `menuentry-efi-01.conf` -> `liveboot.conf` in `/efiboot/loader/entries`
 - Changed default profile to `liveboot.conf` in `/efiboot/loader/loader.conf`
 - Changed ISO label in `profiledef.sh`
+- Deleted contents `/airootfs/etc/motd`
+- Added contents `/x86_64/airootfs/etc/motd`
 
 ## Commit #3 [20220831]
 ### Added
@@ -47,18 +48,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Commit #2 [20220830]
 ### Added
-- Added contents in `/airootfs/etc/os-release`
-- Added beep sound in `/efiboot/loader/loader.conf`
 - Created directory `themes` in `/grub`
 - Added archlinux keyring to `packages.x86_64`
 ### Deleted
-- Deleted contents `/airootfs/etc/motd`
 - Deleted file `02-archiso-x86_64-linux.conf` in `/efiboot/loader/entries`
 - Deleted file `03-archiso-x86_64-speech-linux.conf` in `/efiboot/loader/entries`
 - Deleted file `boot.pf2` to `/grub`
-- Deleted text help in `/syslinux/archiso_tail.cfg`
-- Deleted grub font in `/x86_64/airootfs/etc/default/grub`
-- Deleted contents `/x86_64/airootfs/etc/motd`
 ### Changed
 - Set user `neoros` to no password in `/airootfs/etc/sudoers`
 - Changed file `01-archiso-x86_64-graphical-linux.conf` -> `menuentry-efi-01.conf` in `/efiboot/loader/entries`
@@ -71,6 +66,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Changed contents `/syslinux/archiso_sys-linux.cfg`
 - Uncommented grub color in `/x86_64/airootfs/etc/default/grub`
 - Changed pretty name in `/x86_64/airootfs/etc/os-release`
+- Deleted contents `/airootfs/etc/motd`
+- Deleted text help in `/syslinux/archiso_tail.cfg`
+- Deleted grub font in `/x86_64/airootfs/etc/default/grub`
+- Deleted contents `/x86_64/airootfs/etc/motd`
+- Added contents in `/airootfs/etc/os-release`
+- Added beep sound in `/efiboot/loader/loader.conf`
 
 ## Commit #1 [20220830]
 ### Added
