@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="linux_neoros"
-iso_label="Linux Neoros 7.22 amd64"
+iso_name="neoros"
+iso_label="neoros"
 iso_publisher="Linux Neoros"
 iso_application="Linux Neoros"
-iso_version="7.22"
+iso_version="202207-gnome"
 install_dir="neoros"
 buildmodes=('iso')
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito' 'uefi-x64.systemd-boot.esp' 'uefi-x64.systemd-boot.eltorito')

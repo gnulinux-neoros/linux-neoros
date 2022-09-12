@@ -4,6 +4,15 @@ All notable changes from `neoros` directory will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Commit #5 [20220912]
+### Added
+- Created directory `gdm` in `/airootfs/etc`
+- Added user `neoros` to AutomaticLogin
+### Deleted
+- Deleted neoros user in `/airootfs/etc/sudoers`
+### Changed
+- Changed AutomaticLoginEnable to True
+
 ## Commit #4 [20220910]
 ### Added
 - Added LibreOffice to `packages.x86_64`
