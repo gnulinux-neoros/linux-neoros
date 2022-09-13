@@ -21,3 +21,11 @@ if [[ "$choice" =~ ^([yY])$ ]]; then
 else
 	exit 0;
 fi
+
+# For flashing USB drives
+read -r -p 'Completed, would you like to flash right now? ' choice
+if [[ "$choice" =~ ^([yY])$ ]]; then
+	sudo /opt/balenaEtcher-1.7.9-x64.AppImage
+else
+	exit 0;
+fi
