@@ -4,6 +4,18 @@ All notable changes from `neoros` directory will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Commit #6 [20220913]
+### Added
+- Created directory `autostart` in `/airootfs/etc/xdg`
+- Created file `gnome-login.desktop` in `/airootfs/etc/xdg/autostart`
+### Deleted
+### Changed
+- Deleted neoros user in `/airootfs/etc/sudoers`
+- Uncommented wheel in `/airootfs/etc/sudoers`
+- Added user `neoros` to AutomaticLogin in `/airootfs/etc/gdm/custom.conf`
+- Changed AutomaticLoginEnable to `True` in `/airootfs/etc/gdm/custom.conf`
+- Added contents `/airootfs/etc/xdg/autostart/gnome-login.desktop`
+
 ## Commit #5 [20220912]
 ### Added
 - Created directory `gdm` in `/airootfs/etc`
