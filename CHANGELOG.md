@@ -4,6 +4,12 @@ All notable changes from `neoros` directory will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Commit #8 [20220915]
+### Added
+### Deleted
+### Changed
+- Deleted border in `/syslinux/head.cfg`
+
 ## Commit #7 [20220915]
 ### Added
 ### Deleted
