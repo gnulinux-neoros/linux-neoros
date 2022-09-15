@@ -9,3 +9,7 @@ To build the ISO image, you need to be on Arch-based distro and install `archiso
 ```sh
 sudo pacman -S archiso
 ```
+
+## Authentication
+Username: neoros
+Password: neoros

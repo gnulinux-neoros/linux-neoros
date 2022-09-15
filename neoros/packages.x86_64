@@ -1,7 +1,5 @@
 alsa-utils
 amd-ucode
-arch-install-scripts
-archinstall
 archlinux-keyring
 avahi
 b43-fwcutter
@@ -51,7 +49,6 @@ ipw2100-fw
 ipw2200-fw
 irssi
 iw
-iwd
 jfsutils
 kitty-terminfo
 less

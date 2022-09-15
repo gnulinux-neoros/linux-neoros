@@ -1,4 +1,4 @@
-# useradd defaults file for ArchLinux
+# useradd defaults file for Linux Neoros
 # original changes by TomK
 GROUP=users
 HOME=/home
