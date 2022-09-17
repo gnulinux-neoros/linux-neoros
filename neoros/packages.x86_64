@@ -91,7 +91,6 @@ parted
 partimage
 pcsclite
 plasma
-plasma-wayland-session
 ppp
 pptpclient
 pv
@@ -133,4 +132,3 @@ xfsprogs
 xl2tpd
 xorg
 zsh
-
