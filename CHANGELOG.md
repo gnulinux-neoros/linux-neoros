@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Commit #3 [20220917]
 ### Added
-- Created file `sddm.conf` in `/airootfs/etc`
+- Added autologin in KDE
 ### Deleted
 ### Changed
 
