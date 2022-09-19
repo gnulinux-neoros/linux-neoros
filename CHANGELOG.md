@@ -4,20 +4,26 @@ All notable changes from `neoros` directory will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Commit #11 [20220919]
+### Added
+- Added User Themes extension
+### Deleted
+### Changed
+
 ## Commit #10 [20220919]
-## Added
+### Added
 - Added desktop background
 - Added Dash To Dock extension
 - Added Yaru themes
 - Added Yaru icons
 - Added Yaru sounds effect
-## Deleted
-## Changed
+### Deleted
+### Changed
 
 ## Commit #9 [20220917]
-## Added
-## Deleted
-## Changed
+### Added
+### Deleted
+### Changed
 
 ## Commit #8 [20220915]
 ### Added
