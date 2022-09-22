@@ -52,6 +52,7 @@ libfido2
 libreoffice-still
 libusb-compat
 lightdm
+lightdm-gtk-greeter
 linux
 linux-atm
 linux-firmware
