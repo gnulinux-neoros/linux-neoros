@@ -45,13 +45,13 @@ ipw2200-fw
 irssi
 iw
 jfsutils
-kde-applications
 kitty-terminfo
 less
 lftp
 libfido2
 libreoffice-still
 libusb-compat
+lightdm
 linux
 linux-atm
 linux-firmware
@@ -90,7 +90,6 @@ partclone
 parted
 partimage
 pcsclite
-plasma
 ppp
 pptpclient
 pv
@@ -102,7 +101,6 @@ rp-pppoe
 rsync
 rxvt-unicode-terminfo
 screen
-sddm
 sdparm
 sg3_utils
 smartmontools
@@ -128,6 +126,8 @@ wireless-regdb
 wireless_tools
 wpa_supplicant
 wvdial
+xfce4
+xfce4-goodies
 xfsprogs
 xl2tpd
 xorg
