@@ -1,0 +1,44 @@
+[org.freedesktop.Tracker.Extract]
+sched-idle='always'
+
+[org.freedesktop.Tracker.Miner.Files]
+sched-idle='always'
+index-on-battery=true
+
+[org.gnome.desktop.background]
+picture-uri='file:///home/neoros/.local/share/backgrounds/Cantalus.png'
+picture-options='zoom'
+
+[org.gnome.desktop.interface]
+color-scheme='prefer-dark'
+cursor-theme='Yaru'
+enable-animations=true
+font-name='Cantarell 11'
+gtk-im-module='gtk-im-context-simple'
+gtk-theme='Adw-dark'
+icon-theme='Yaru-blue-dark'
+
+[org.gnome.desktop.sound]
+event-sounds=true
+theme-name='Yaru'
+input-feedback-sounds=true
+
+[org.gnome.desktop.wm.preferences]
+titlebar-uses-system-font=false
+button-layout='appmenu:minimize,maximize,close'
+focus-mode='click'
+
+[org.gnome.desktop.peripherals.touchpad]
+tap-to-click=true
+click-method='areas'
+two-finger-scrolling-enabled=true
+tap-and-drag=true
+
+[org.gnome.shell]
+always-show-log-out=true
+disable-extension-version-validation=true
+favorite-apps=['org.gnome.Epiphany.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Music.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Software.desktop']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com']
+
+[org.gnome.Terminal.Legacy.Profile]
+visible-name='neoros'

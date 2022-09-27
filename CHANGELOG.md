@@ -4,6 +4,12 @@ All notable changes from `neoros` directory will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Commit #20 [2022/09/27]
+- Fixed default profile for OS
+
+## Commit #19 [2022/09/27]
+- Moved gtk-2.0 folder to `/etc/skel/.local/share`
+
 ## Commit #18 [2022/09/27]
 - Fixed some stuff in `/etc/skel`
 
