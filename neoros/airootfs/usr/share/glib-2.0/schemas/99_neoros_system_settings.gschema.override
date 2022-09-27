@@ -6,7 +6,7 @@ sched-idle='always'
 index-on-battery=true
 
 [org.gnome.desktop.background]
-picture-uri='file:///home/neoros/.local/share/backgrounds/Cantalus.png'
+picture-uri='file:///usr/share/backgrounds/Cantalus.png'
 picture-options='zoom'
 
 [org.gnome.desktop.interface]
@@ -15,7 +15,7 @@ cursor-theme='Yaru'
 enable-animations=true
 font-name='Cantarell 11'
 gtk-im-module='gtk-im-context-simple'
-gtk-theme='Adw-dark'
+gtk-theme='Yaru-blue-dark'
 icon-theme='Yaru-blue-dark'
 
 [org.gnome.desktop.sound]
