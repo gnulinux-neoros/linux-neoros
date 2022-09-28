@@ -4,6 +4,10 @@ All notable changes from `neoros` directory will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Commit #27 [2022/09/28]
+- Added libboost_python310.so.1.79.0 in `/usr/lib`
+- Change branding of Calamares
+
 ## Commit #26 [2022/09/28]
 - Added 25 required packages for Calamares
 

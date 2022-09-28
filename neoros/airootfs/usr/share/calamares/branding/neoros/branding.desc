@@ -1,5 +1,5 @@
 ---
-componentName:  Neoros
+componentName:  neoros
 welcomeStyleCalamares:   false
 welcomeExpandingLogo:   true
 windowExpanding:    noexpand
@@ -16,10 +16,11 @@ strings:
 images:
     productLogo:         "logo.png"
     productIcon:         "logo.png"
-    productWelcome:      "languages.png"
-slideshowAPI: 1
+    productWelcome:      "banner.png"
 style:
    sidebarBackground:    "#1a1c1b"
    sidebarText:          "#efefef"
    sidebarTextSelect:    "#02659e"
    sidebarTextHighlight: "#454948"
+slideshow:		 "show.qml"
+slideshowAPI: 2
