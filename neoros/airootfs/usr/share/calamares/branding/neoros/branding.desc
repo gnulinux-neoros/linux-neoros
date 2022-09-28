@@ -1,0 +1,25 @@
+---
+componentName:  Neoros
+welcomeStyleCalamares:   false
+welcomeExpandingLogo:   true
+windowExpanding:    noexpand
+windowSize: 820px,540px
+windowPlacement: center
+strings:
+    productName:         Linux Neoros
+    shortProductName:    Neoros
+    version:             7.22
+    shortVersion:        7.22
+    versionedName:       Linux Neoros 7.22 "Osneo"
+    shortVersionedName:  Neoros 7.22
+    bootloaderEntryName: Neoros
+images:
+    productLogo:         "logo.png"
+    productIcon:         "logo.png"
+    productWelcome:      "languages.png"
+slideshowAPI: 1
+style:
+   sidebarBackground:    "#1a1c1b"
+   sidebarText:          "#efefef"
+   sidebarTextSelect:    "#02659e"
+   sidebarTextHighlight: "#454948"
