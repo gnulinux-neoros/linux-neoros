@@ -1,0 +1,5 @@
+[org/gnome/login-screen]
+logo='/usr/share/pixmaps/linux-neoros-white.svg'
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=false

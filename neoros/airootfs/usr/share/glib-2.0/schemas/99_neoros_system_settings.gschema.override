@@ -39,7 +39,7 @@ tap-and-drag=true
 always-show-log-out=true
 disable-extension-version-validation=true
 favorite-apps=['firefox.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Nautilus.desktop', 'gnome-terminal.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Settings.desktop']
-enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'ding@rastersoft.com']
 
 [org.gnome.Terminal.Legacy.Profile]
 visible-name='neoros'
