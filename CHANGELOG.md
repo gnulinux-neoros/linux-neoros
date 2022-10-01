@@ -2,7 +2,14 @@
 All notable changes from `neoros` directory will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## Commit #32 [2022/10/02]
+- Changed syslinux configuration
+- Change Firefox browser settings
+
+## Commit #31 [2022/09/29]
+- Removed org.gnome.gedit.desktop (conflicting files)
 
 ## Commit #30 [2022/09/29]
 - Rename `10_neoros_dconf_settings` -> `01-logo` in `/etc/dconf/db/gdm.d`
