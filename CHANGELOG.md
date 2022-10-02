@@ -4,8 +4,16 @@ All notable changes from `neoros` directory will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Commit #33 [2022/10/02]
+- Resize pixmaps logo
+- Change syslinux configuration
+- Replace Desktop Icons NG with Desktop Icons Neo
+- Remove dconf folder
+- Remove distribution.ini in Firefox (conflicting files)
+- Change settings in `/usr/share/glib-2.0/schemas/99_neoros_system_settings.gschema.override`
+
 ## Commit #32 [2022/10/02]
-- Changed syslinux configuration
+- Change syslinux configuration
 - Change Firefox browser settings
 
 ## Commit #31 [2022/09/29]
