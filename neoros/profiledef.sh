@@ -3,7 +3,7 @@
 
 iso_name="neoros"
 iso_label="neoros"
-iso_publisher="Linux Neoros"
+iso_publisher="Linux Neoros <https://neoros.tk>"
 iso_application="Linux Neoros"
 iso_version="202207-gnome"
 install_dir="neoros"

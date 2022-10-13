@@ -6,8 +6,8 @@ sched-idle='always'
 index-on-battery=true
 
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/Cantalus.png'
-picture-uri-dark='file:///usr/share/backgrounds/Cantalus.png'
+picture-uri='file:///usr/share/backgrounds/firefox.png'
+picture-uri-dark='file:///usr/share/backgrounds/firefox.png'
 picture-options='zoom'
 
 [org.gnome.desktop.interface]
@@ -16,12 +16,14 @@ cursor-theme='Yaru'
 enable-animations=true
 font-name='Cantarell 11'
 gtk-im-module='gtk-im-context-simple'
-gtk-theme='Yaru-blue-dark'
-icon-theme='Yaru-blue-dark'
+gtk-theme='Yaru-purple-dark'
+icon-theme='Yaru-purple-dark'
+clock-format='12h'
+show-battery-percentage=true
 
 [org.gnome.desktop.sound]
 event-sounds=true
-theme-name='Yaru'
+theme-name='Yaru-neoros'
 input-feedback-sounds=true
 
 [org.gnome.desktop.wm.preferences]
@@ -41,8 +43,23 @@ disable-extension-version-validation=true
 favorite-apps=['firefox.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Nautilus.desktop', 'gnome-terminal.desktop', 'org.gnome.Contacts.desktop', 'org.gnome.Settings.desktop']
 enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'dash-to-dock@micxgx.gmail.com', 'desktopicons-neo@darkdemon']
 
-[org.gnome.login-screen]
-logo='/usr/share/pixmaps/linux-neoros-white.svg'
-
 [org.gnome.Terminal.Legacy.Profile]
+background-color='#1e1421'
+use-theme-colors=false
+use-system-font=false
+font='Source Code Pro 11'
+foreground-color='#fbfbfb'
+palette=['#171421','#c01c28','#26a269','#a2734c','#12488b','#a347ba','#2aa1b3','#d0cfcc',#5e5c64','#f66151','#33da7a','#e9ad0c','#2a7bde','#c061cb','#33c7de','#ffffff']
+rewrap-on-resize=true
+bold-is-bright=true
 visible-name='neoros'
+
+[org.gnome.login-screen]
+logo='/usr/share/pixmaps/linux-neoros-text.png'
+
+[org.gnome.gedit.preferences.editor]
+auto-indent=true
+editor-font='Source Code 12'
+scheme='solarized-dark'
+tabs-size=4
+use-default-font=false

@@ -3,7 +3,7 @@
 Type=Application
 Name=GNOME Login Sound
 Comment=Plays a sound whenever you log in
-Exec=/usr/bin/canberra-gtk-play -f /usr/share/sounds/freedesktop/stereo/device-added.oga
+Exec=/usr/bin/canberra-gtk-play -f /usr/share/sounds/Yaru-neoros/stereo/desktop-login.oga
 X-GNOME-Autostart-Phase=Application
 X-GNOME-Provides=login-sound
 X-GNOME-Autostart-enabled=true
